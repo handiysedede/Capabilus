@@ -1,0 +1,31 @@
+import random
+
+guessesTaken=0
+
+print('Selam, adın ne ?')
+myName=input()
+
+number=random.randint(1,20)
+print('Pekala,' + myName + ' birle yirmi arasında bi sayı tutucam sibernetik aklımda ve sen de ' + myName + ' başına bunu tahmin etmeyi deniyceksin, oyun bu')
+
+for guessesTaken in range (10):
+    print ('dene bakalım ')
+    guess=input()
+    guess=int(guess)
+
+    if guess<number:
+        print('Az mı oldu o accık ?')
+
+    if guess>number:
+        print('Ufff çok gittin')
+
+    if guess==guessesTaken:
+        break
+
+if guess == number:
+    guessesTaken=str(guessesTaken + 1)
+    print('Afferin '+ myName + ' !!' +' Sibernetik sibernetik tuttuğum sayı '+ guessesTaken + ' bravo valla')
+
+if guess != number:
+    number=str(number) 
+    print('Yok olmadı. Devrelerimde ki sayı ' + number +' idi')
