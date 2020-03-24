@@ -1,0 +1,11 @@
+##İşbu program bana selam verip adımı sormaktadır
+print('SELAAAM!')
+print('adın ne?')
+myName=input()
+print('oooo' +' ' + myName + ' ' + 'beyler de burdaymış')
+
+##Böyle de olurmuş tanışma faslı
+name=input("tanışalım, anın ne ?")
+print("selamlar " + name + " ...")
+age=input(" pekala "+name+" kaç yaşındasın ?")
+print("oo " + age +" yaşındayken ben pikselle beslenirdim")
