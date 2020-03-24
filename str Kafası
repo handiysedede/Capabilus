@@ -1,0 +1,16 @@
+##Bu kısaltmalar integrallleri
+##(yalnızca 'command') str yapar
+oct(7)
+hex(32552)
+bin(232)
+##Bunlar da panelde
+x=hex(2572)
+print(x)
+y=oct(5)
+print(y)
+z=bin(232)
+print(z)
+##bu komutlar ile sayıyı adam ediyoruz
+int(12)
+float(12)
+complex(12)
