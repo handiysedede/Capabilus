@@ -8,3 +8,8 @@ my_list.insert(3,"karpuz")
 print(my_list)
 my_list.remove("elma")
 print(my_list)
+
+
+
+## Sıralamaya geldik
+list(range(1, 100, 10))
