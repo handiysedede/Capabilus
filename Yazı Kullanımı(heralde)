@@ -1,0 +1,41 @@
+ word = 'word'
+sentence = "This is a sentence."
+paragraph = """This is a paragraph.
+It is made up of multiple lines and
+sentences."""
+paragraph2 = """this a paragraph 2 """
+paragraph3 = 'kelime'
+#bunu böyle de kullanabilirsin
+'''
+böyle
+de
+kullanabilirsin
+'''
+##bütün harfleri büyütme de format da değişiyor yalnız
+a='''Hyperparameters are the configuration settings used to tune how the model is trained.
+Derivative of '''
+print(a.upper())
+##liste muhabbeti
+x=100
+y=100
+spam=0
+my_list1=["kılıç", "kalkan", "can iksiri"]
+my_list2=[x,y,spam]
+question1= raw_input("1.çanta")
+question2= raw_input("2.karakter")
+if question=="1":
+    print(my_list1)
+    
+##Yeni dememem
+x=100
+y=100
+spam=0
+my_list1=["kılıç", "kalkan", "can iksiri"]
+my_list2=[x,y,spam]
+question= input("1 çanta" , "2 karakter")
+if question=="1":
+    print(my_list1)
+elif  question == "2":
+    print(my_list2)
+else 
+    print("Birini seçmeniz gerekmektedir")
