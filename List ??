@@ -1,0 +1,10 @@
+##Liste oluşturma
+my_list=["elma","armut"]
+print(my_list)
+my_list.append("kavun")
+print(my_list)
+my_list.insert(3,"karpuz")
+##  0 , 1 , 2 , 3'üncü sıraya karpuzu ekle diyorum ben burada
+print(my_list)
+my_list.remove("elma")
+print(my_list)
