@@ -1,0 +1,17 @@
+i= int(input("kaç paran var ?:"))
+while i <= 10:
+    print('yazık laa...')
+    i-=1
+    print('ama şimdi')
+    print(i)
+else:
+    print('şimdi fakirsin')
+print('Hepsini aldım hadi görüşürüz') 
+##bi de şöylesi var
+x=eval(input("kaç paran var acep ?:"))
+while x>=0:
+    print("zenginmişsin amaaa.. \n Şunu aldım, bunu aldım kaldı: ",x)
+    x-=1
+else:
+    print("fakirliğin gözü körolsun nhanhanahahnhanh")
+print("sokakta yat piç")
