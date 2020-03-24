@@ -1,0 +1,5 @@
+##İşbu program bana selam verip adımı sormaktadır
+print('SELAAAM!')
+print('adın ne?')
+myName=input()
+print('oooo' +' ' + myName + ' ' + 'beyler de burdaymış')
