@@ -1,0 +1,16 @@
+## bu sefer 3 sayıyın maxı
+print('Hemen yardımcı olalaım sayıyı giriniz...')
+n1=input()
+print('sayınız okundu')
+print('İkinci sayıyı alalım...')
+n2=input()
+print('ikici sayınız da okundu')
+n3=input()
+print('üçüncü sayınız da okundu')
+if (n1>n2):
+    max=n1
+else :
+    max=n2
+if (max<n3):
+    max=n3
+print('sayınız; ' , max)
