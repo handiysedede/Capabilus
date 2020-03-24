@@ -1,0 +1,3 @@
+##ÖYLE BİR GEÇER ZAMAN Kİ
+from time import strftime
+strftime("%d-%m-%Y / %H:%M%S")
