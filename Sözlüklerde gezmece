@@ -1,0 +1,13 @@
+##Sözlüklerde gezmece
+menu={"su":2, "tost":5}
+print(menu)
+menu["simit"]=3
+print(menu)
+del menu["su"]
+print(menu)
+menu["simit"]=4
+print(menu)
+dict.clear(menu)
+print(menu)
+del[menu]
+print(menu)
