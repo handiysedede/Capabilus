@@ -1,0 +1,12 @@
+def your_choise(answer):
+    if answer >5:
+        print(" çok büyük yannız sizin yaşınız")
+    elif answer<= 5 and answer >2:
+        print('analar kreşine hoşgeldiniz')
+    elif answer == 2:
+        print('ooooo buyrun buyrun ')
+    else:
+        print('yok artık')
+
+
+print(your_choise(4))
