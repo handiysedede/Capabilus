@@ -1,0 +1,17 @@
+“”””””””””””””””””””””””””””
+>>> not 1 == 1
+False
+>>> not 1 > 7
+True
+“”””””””””””””””””””””””
+####
+isim = "Amice"
+print("neaptın", isim, end="!\n")
+
+print("neaptın", isim, end="!")
+####
+kartvizit = """
+istizha
+anoiasasf
+"""
+print(kartvizit)
