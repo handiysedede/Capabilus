@@ -1,0 +1,14 @@
+i=0
+while True:
+    i=i+1
+    if i==5:
+        print("beşi geçtim")
+        continue
+    if i==10:
+        print("onu geçtim")
+        continue
+    if i==19:
+        print("yeter di mi ?")
+        break
+    print(i)
+print("afferin LAAAAAN")
