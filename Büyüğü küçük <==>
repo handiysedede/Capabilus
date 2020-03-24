@@ -1,0 +1,5 @@
+##Bu yöntem kelimenin içinde ki
+##büyük harfleri küçük, <> yapıyor
+c="Grand River"
+print(c.lower())
+print(c.upper())
