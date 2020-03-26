@@ -1,0 +1,9 @@
+tahta = [["___", "___", "___"], ["___", "___", "___"], ["___", "___", "___"]] 
+print("\n"*15)
+for i in tahta:
+  print("\t".expandtabs(30), *i, end="\n"*2) 
+#kardiz = "istihza"
+#for i in kardiz:
+ # print(i, end=" ")
+#print() 
+# Ya da print(*kardiz) 
