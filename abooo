@@ -1,0 +1,5 @@
+yaş = int(input("Yaşınız kaç? "+ "\n"))
+print("Bi bakalım...")
+yaş=yaş-7
+yaş=yaş/4
+print(int(yaş))
