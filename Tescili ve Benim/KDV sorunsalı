@@ -1,9 +1,11 @@
-print("Selamlar...")
-print("Şimdi ben sana en son perakende olarak aldığın ürünün vergisiz halini söyleyeceğim")
-def kazık():
-  ürün_toplam_fiyat = input(print("Ne kadar ödedin mesela ?"))
-  kdv= input(print("peki KDV ne yazıyor? Yüzdesiz yaz lütfen"))
-  kdv/100
-  vergisiz = ürün_toplam_fiyat*float(kdv)
-  return vergisiz
-print(kazık())
+def fact(): 
+  vergili=int(input("Ne ödedin?"+"\n"))
+  vergili=vergili*100
+  kdv=int(input("KDV ne?"+"\n"))
+  kdv=kdv+100
+  vergisiz=vergili/kdv
+  vergili=vergili/100
+  vergi=vergili-vergisiz
+  vergi=round(vergi,2)
+  return vergi
+print("Ödediğiniz vergi:",fact())
