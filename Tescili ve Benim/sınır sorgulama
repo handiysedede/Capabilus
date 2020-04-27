@@ -1,5 +1,10 @@
-yaş = int(input("Yaşınız kaç? "+ "\n"))
+import time 
+yaş = int(input("Yaşınız kaç? "+ 
+"\n"))
 print("Bi bakalım...")
-yaş=yaş-7
-yaş=yaş/4
-print(int(yaş))
+time.sleep(3)
+def sınır(adamın_yaşı):
+  adamın_yaşı-=7
+  adamın_yaşı/=4
+  return adamın_yaşı
+print(int(sınır(yaş)))
