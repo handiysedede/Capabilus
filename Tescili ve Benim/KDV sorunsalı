@@ -1,0 +1,9 @@
+print("Selamlar...")
+print("Şimdi ben sana en son perakende olarak aldığın ürünün vergisiz halini söyleyeceğim")
+def kazık():
+  ürün_toplam_fiyat = input(print("Ne kadar ödedin mesela ?"))
+  kdv= input(print("peki KDV ne yazıyor? Yüzdesiz yaz lütfen"))
+  kdv/100
+  vergisiz = ürün_toplam_fiyat*float(kdv)
+  return vergisiz
+print(kazık())
