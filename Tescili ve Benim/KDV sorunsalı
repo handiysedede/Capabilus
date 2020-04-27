@@ -9,3 +9,15 @@ def fact():
   vergi=round(vergi,2)
   return vergi
 print("Ödediğiniz vergi:",fact())
+'''
+def kazık():
+  print("Ne ödediniz?")
+  vergili=float(input())
+  print("KDV'si ne idi?")
+  kdv=int(input())
+  vergili *= kdv
+  kdv = kdv+100
+  vergi=vergili/kdv
+  return float(round(vergi,2))
+print(kazık())
+'''
