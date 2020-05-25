@@ -5,3 +5,8 @@ print(olas)
 
 zar = random.randrange(1,7)
 print(zar)
+'''
+The randrange function generates an integer between its lower and upper argument, 
+using the same semantics as range — so the lower bound is included, but the upper bound is excluded.
+All the values have an equal probability of occurring (i.e. the results are uniformly distributed).
+'''
