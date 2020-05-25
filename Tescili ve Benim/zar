@@ -1,0 +1,7 @@
+import random
+
+olas = random.random()
+print(olas)
+
+zar = random.randrange(1,7)
+print(zar)
