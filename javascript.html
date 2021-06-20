@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript'e Başlanım</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport"/>
+    </head>
+
+    <body>
+        <div dragable="true" id="icerik" style="color:red;">ornek verdim ben burda</div><BR/>
+        <button id="naabicam" /*onclick="document.getElementById('naabicam').style.fontSize='15px'"*/>Tıklasana bi naabıcam &nbsp; </button><BR/>
+        <input type="submit" value="tıkla bak nooluyo..&nbsp;" id="nooluyo"/>
+        <script>
+        ///*window*/document.getElementById("icerik").innerHTML="degisti";
+        //document.write("Selam")
+        document.getElementById("icerik").style.color="blue";
+        document.getElementById("nooluyo").onclick=function(){
+            this.value="tikladin";}
+        document.getElementById("naabicam").onclick=function(){
+            document.getElementById("naabicam").innerHTML="bak bak neler yaptım ";
+            alert(document.getElementById("naabicam").innerHTML);
+        }
+        document.getElementById("icerik").onmousedown=function(){
+            this.innerHTML="Bas bas iğice bas";
+        }
+            document.getElementById("icerik").onmouseup=function(){
+            this.innerHTML="Nooldu yaa.. Devam et, devam et..";
+        }
+        </script>
+        <BR/><BR/>
+        <script>
+            function greet()
+            {
+                let name = document.querySelector('#oto').value;
+                alert('hello '  + name);
+            }
+        </script>
+        <form onsubmit="greet();return false;">
+            <input id="oto" type="text" value="yaz bakalım" autofocus/>
+            <input type="submit">
+        </form>
+        <button id="sari">Sarı</button>
+        <button id="mavi">Mavi</button>
+        <script>
+            let body = document.querySelector('body');
+            document.querySelector('#sari').onclick=function() {
+                body.style.backgroundColor = 'yellow';
+            };
+            document.querySelector('#mavi').onclick=function() {
+                body.style.backgroundColor = 'blue';
+            };
+        </script>
+        <div id="ayar">
+            <p >Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <select>
+                <option value="xx-small">Küçült</option>
+                <option selected value="initial">Normal</option>
+                <option value="xx-large">Büyült</option>
+            </select>
+            <script>
+                document.querySelector('select').onchange= function(){
+                    document.querySelector('#ayar').style.fontSize=this.value;
+                };
+            </script>
+        
+        </div>
+    </body>
+</html>
