@@ -1,0 +1,1 @@
+The try block contains the code to attempt.• The except blocks contain the code to run if and only if an expected error type occurs.• The else block contains the code to run if and only if no errors occur.• The finally  block  contains  the  code  to  run  regardless  of  whether  or  not  an  error occurred.
