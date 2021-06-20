@@ -1,0 +1,238 @@
+body,ul,li,form{
+    margin:0;padding:0;
+}
+#clear{
+    clear: none;
+}
+#fctop{
+    background-color: rgb(58, 87, 149);
+    width: 100%;
+    height: 90px;
+}
+#fctop ul{
+    list-style: none;
+}
+#fctop li{
+    float:left;
+    margin: 15px 0 0 200px;
+    color: white;
+}
+#fctop input[type="password"]{
+    box-sizing: border-box;
+    background-color: #fff;
+    width: 100%;
+    height: 25px !important;
+    font-size:18px;
+    position: relative;
+    border:1px solid rgb(58, 87, 149,.6);
+    border-radius: 5px;
+}
+#fctop input[type="text"]{ 
+    box-sizing: border-box;
+    background-color: #fff;
+    height: 25px !important;
+    width: 100%;
+    font-size:18px;
+    position: relative;
+    border:1px solid rgb(58, 87, 149,.6);
+    border-radius: 5px;
+}
+#fctop input[type="submit"]{ 
+    box-sizing: border-box;
+    background-color: rgb(62, 64, 134);
+    position: relative;
+    top:-59px;
+    left: 250px;
+    height: 25px !important;
+    font-size:18px;
+    border:1px solid rgb(58, 87, 149,.6);
+    border-radius: 5px;
+}
+#mainlogo{
+    position: relative;
+    top:20px;
+    font-size:3em;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+#tel{
+    position:relative;
+    left: 190px;
+    font: size 8em;
+}
+#fcbox{
+    background-color: #EDF0F5;
+    height:621px;
+}
+#tutucu{
+ width:1050px;
+ height: 50px;
+ margin:auto;
+/* background-color: red; */
+ padding:28px;
+}
+#sol{
+ width: 550px;
+ float: left;
+ font-family:"Freight Sans Bold","lucida grande",tahoma,verdana,arial,sans-serif;
+ box-sizing: border-box;
+}
+#sol h1{
+ color:#333;
+ font-weight: bold;
+ font-size: 28px;
+ font-family: "Freight Sans Bold","lucida grande",tahoma,verdana,arial,sans-serif;
+ padding-top: 42px;
+ display: inline-block;
+ line-height: 36px;
+}
+#sol ul{
+ list-style: none;
+ margin:0;
+ padding: 0;
+}
+#sol ul span{
+ position: relative;
+ top:-25px
+}
+#fc3 span{
+ position: relative !important;;
+ top:-35px !important;
+}
+#sol li{
+ margin-bottom: 20px;
+}
+#sag{
+ width: 500px;
+ float: left;
+ color: #333;
+ font-family:"Freight Sans Bold","lucida grande",tahoma,verdana,arial,sans-serif;
+ box-sizing: border-box;
+ -webkit-box-sizing:border-box;
+}
+#sag td{
+padding: 0 5px;
+/* height: 50px; */
+}
+#sag input{
+ position: relative;
+ box-sizing: border-box;
+ background-color: #fff;
+ height: 45px !important;
+ width:100%;
+ font-size:18px;
+ margin-bottom:5px;
+ border:1px solid rgb(58, 87, 149,.6);
+ border-radius: 5px;
+}
+#sag a{
+ font-size:10px;
+ margin-left: -100px;
+}
+label{
+ float:left;
+ margin-right: 20px;
+}
+input[type="radio"]{
+ position: relative !important;
+ left:-20px;
+ width: 100%;
+ -webkit-transform: scale(0.5);
+
+}
+select{
+ position: relative;
+ box-sizing: border-box;
+ background-color: #fff;
+ height: 45px !important;
+ font-size:16px;
+ margin-bottom:5px;
+ border:1px solid rgb(58, 87, 149,.6);
+ border-radius: 5px;
+}
+.after{
+ position: relative !important;
+ top:-40px;
+ left:19px;
+ padding-left: 15px;
+}
+#terms a {
+ position: relative !important;
+ left:100px !important;
+ top:-30px;
+ text-align: left !important;
+}
+#sag input[type="submit"]{
+ background-color: #6Bb656;
+ color:#fff;
+ border:2px outset #6Bb656;
+}
+#sag hr{
+ border-color: lightyellow;
+}
+#saglast{
+ color:#666;
+ font-size: 13px;
+}
+.topform input{
+    border-radius: 0;
+    border:none;
+    height: 20px;
+    background-color: white;
+    color: black;
+}
+.topform input[type="submit"]{
+    background-color: rgb(96, 121, 171);
+    border:1px outset darkblue;
+    color: inherit;
+}
+#footer ul{
+    position: relative;
+    width:80%;
+    margin:auto;
+    list-style: none;
+}
+#footer li{
+    float: left;
+    padding:30px 5px 0 ;
+}
+#footer hr{
+ width:80%;
+ border:none;
+ height:1px;
+ background-color:grey;
+ margin-left: 15%;
+}
+#noktali{
+    background-color: lemonchiffon;
+}
+#footer a{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#footer a:hover{
+    text-decoration: underline;
+}
+#noktali:hover{
+    background-color: grey;
+}
+table {
+ width:600px;
+ margin-left: 15%;
+}
+#footer hr{
+    width: 80%;
+    border:none;
+    height: 1px;
+    background-color: grey;
+}
+#foot{
+    margin-left: 15%;
+}
+#son_satir{
+ margin-left: 15%;
+ font-size: 19px;
+ color:darkgreen;
+ padding:20px 0;
+}
